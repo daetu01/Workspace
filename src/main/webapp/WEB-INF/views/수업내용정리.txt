@@ -55,4 +55,18 @@
         /WEB-INF/spring/security-context.xml  스프링 시큐리티 (인증,권한) 설정파일
    
   2)  브라우저   http://localhost 엔터
-			
+
+8. webapp
+	ㄴ resources 폴더
+	
+9. home.jsp
+	[ 스프링 MVC 처리 ]
+	http://localhost/time 요청 => time.jsp 응답
+	<h3><a href="/time">/time<a/></h3>
+	
+	???dao.java
+		getTime() {
+			String sql = "SELECT sysdate FROM dual";
+			return 현재시스템 시간/날짜
+		}
+		
